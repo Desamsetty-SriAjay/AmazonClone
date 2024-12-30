@@ -1,0 +1,152 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color:#0f1111;
+    height:70px;
+    display: flex;
+    align-items:center;
+    color: white;
+    justify-content:space-between;
+}
+.logo{
+    background-image:url("amazon_logo.png");
+    height: 60px;
+    width: 114px;
+    background-size: cover;
+    margin: 1px;
+    padding: 1px 8px 0px 6px;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+/* box-2 */
+.nav-address{
+    margin: 5px 2px 5px 0;
+    padding: 12px 4px 12px 4px;
+}
+.address-first{
+    color: #cccccc;
+    font-size:0.85rem;
+    margin-left: 15px;
+}
+.add-india{
+    font-size:0.95rem;
+    margin-left:2px;
+}
+.icon{
+    display: flex;
+}
+/* box3 */
+.nav-search {
+    height: 40px;
+    width: 880px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 2px solid transparent;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.options{
+    height:100%;
+    width:50px;
+    background-color:#E6E6E6;
+    text-align: center;
+    border: none;
+}
+.search{
+    height:100%;
+    width:100%;
+    border: none;
+    font-size:1rem;
+    padding:0 10px;
+}
+.nav-search i{
+    height:100%;
+    width:45px;
+    background-color:#febd69;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0f1111;
+    cursor:pointer;
+    font-size: 1.2rem;
+}
+/* box4 */
+.language{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 74px;
+    
+}
+.select-language{
+    background-color:#0f1111;
+    color: white;
+    height:17px;
+    width:40px;
+    font-weight:700;
+}
+.language-logo {
+    height: 19px;
+    width: 24px;
+    background-image: url("usa-logo.png");
+    background-size: cover;
+}
+/* box5 */
+.upper{
+    font-size:0.7rem;
+}
+.nav-accounts{
+    font-size:0.85rem;
+    font-weight:700;
+}
+/* box6 */
+/* box7 */
+.cart{
+    display: flex;
+    padding:5px 3px;
+    align-items: center;
+}
+.cart i{
+    font-size:30px;
+}
+.cart p{
+    font-weight: 700;
+}
+/* panel */
+.navbar-2{
+    display: flex;
+    height: 39px;
+    width:100%;
+    background-color:#232f3e;
+    color: white;
+    align-items:center; 
+}
+.all{
+    padding: 4px 3px;
+}
+.navs{
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-left:7px;
+    padding: 4px 3px;
+}
+/* hero-sections */
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size:cover;
+    height:600px;
+    width: 100%;  /* Stretches to fit the container */
+    
+    
+
+}
